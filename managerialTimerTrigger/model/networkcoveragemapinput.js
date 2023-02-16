@@ -1,5 +1,5 @@
 var objdaoimpl = require('../dao/mongodaoimpl.js');
-var objManagerialData = require('./managerialdatadaoimpl.js');
+var objManagerialData = require('../model/managerialdatadaoimpl.js');
 var async = require('async');
 var moment = require("moment");
 

@@ -1,5 +1,5 @@
-var objManagerialDatadaoimpl = require('./managerialdatadaoimpl.js.js');
-var objManagerialDataModel = require('./sqltables/managerialdatamodel.js.js');
+var objManagerialDatadaoimpl = require('../model/managerialdatadaoimpl.js');
+var objManagerialDataModel = require('../model/sqltables/managerialdatamodel.js');
 var objmysqldaoimpl = require('../dao/mysqldaoimpl.js');
 var dbConMysql = require('../dao/mysqlconnector.js');
 var connection = dbConMysql.getDbconnection
