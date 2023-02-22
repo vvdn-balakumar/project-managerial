@@ -41,4 +41,4 @@ jobs:
           app-name: 'biceptest-managerial'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_ED1EB1E5FB90422F9F1BADB86C4084EC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F86E0259EEB24559A3B4EBA0C84F9D3A }}
