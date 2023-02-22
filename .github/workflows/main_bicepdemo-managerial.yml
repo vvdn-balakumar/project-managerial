@@ -41,4 +41,4 @@ jobs:
           app-name: 'bicepdemo-managerial'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_419B8FE28B384BE091F453EE39DD53B4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_933396DFFD64441D8B09526CD31A1008 }}
